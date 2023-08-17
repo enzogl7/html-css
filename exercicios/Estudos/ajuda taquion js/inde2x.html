@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <h1>nacionaclidae</h1>
+    nacionalidade> <input type="text" name="text" id="text">
+    <input type="button" value="verificar" onclick="calcular()">
+    <script>
+        function calcular() {
+            var text = window.document.querySelector('input#text')
+            var res = window.document.querySelector('div#res')
+            var vel = Number(text.value)
+            res.innerHTML = `sua nacionalidade é ${res}`
+        }
+    </script>
+</body>
+</html>
